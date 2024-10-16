@@ -1,0 +1,6 @@
+{
+	"globalpm": {
+		"type": "string",
+		"value": "globalpm1-value"
+	}
+}

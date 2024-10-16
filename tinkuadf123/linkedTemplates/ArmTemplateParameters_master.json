@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "tinkuadf123"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "@{linkedService().keyVault_Name}"
+		},
+		"default_properties_globalpm_value": {
+			"value": "globalpm1-value"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
