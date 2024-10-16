@@ -81,13 +81,13 @@
     "Microsoft.DataFactory/factories/linkedServices": {
         "*": {
             "properties": {
-                "parameters":{
-                    "keyVault_Name":{
-                        "defaultvalue":"="
+                "parameters": {
+                    "keyVault_Name": {
+                        "defaultvalue": "="
                     }
-
                 },
                 "typeProperties": {
+                    "keyVault_Name":"=",
                     "accountName": "=",
                     "accountEndpoint": "=",
                     "username": "=",
