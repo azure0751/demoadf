@@ -1,0 +1,16 @@
+{
+	"name": "AzureKeyVault1",
+	"properties": {
+		"description": "AzureKeyVault1",
+		"parameters": {
+			"keyVault_Name": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "@{linkedService().keyVault_Name}"
+		}
+	}
+}
