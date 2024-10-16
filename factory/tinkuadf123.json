@@ -1,5 +1,13 @@
 {
 	"name": "tinkuadf123",
+	"properties": {
+		"globalParameters": {
+			"globalpm": {
+				"type": "string",
+				"value": "globalpm1-value"
+			}
+		}
+	},
 	"location": "eastus",
 	"identity": {
 		"type": "SystemAssigned",
