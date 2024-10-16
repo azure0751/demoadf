@@ -4,7 +4,8 @@
 		"description": "AzureKeyVault1",
 		"parameters": {
 			"keyVault_Name": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "shukla"
 			}
 		},
 		"annotations": [],
