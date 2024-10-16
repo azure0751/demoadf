@@ -87,7 +87,7 @@
                     }
                 },
                 "typeProperties": {
-                    "keyVault_Name":"=",
+                    "keyVault_Name123": "=",
                     "accountName": "=",
                     "accountEndpoint": "=",
                     "username": "=",
